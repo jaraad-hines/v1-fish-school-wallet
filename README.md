@@ -24,9 +24,9 @@
 
 ## Deployment
 
-Your project is live at:
+Project is live at:
 
-**[https://vercel.com/jhines19s-projects/v0-fish-school-wallet](https://vercel.com/jhines19s-projects/v0-fish-school-wallet)**
+**[https://v0-fish-school-wallet.vercel.app/](https://v0-fish-school-wallet.vercel.app/)**
 
 
 ## Screenshots
