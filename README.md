@@ -2,9 +2,9 @@
 
 ## Overview
 🎨 Building a Trustless Wallet for Fish School
-* Wallet container rail: A full-screen “Wallet” frame with status bar (network, block, codehash OK).
+* **Wallet container rail**: A full-screen “Wallet” frame with status bar (network, block, codehash OK).
 
-* Wallet object rail: Cards (Admission, Treasury, Governance, Rules). Each with:
+* **Wallet object rail**: Cards (Admission, Treasury, Governance, Rules). Each with:
 
   - Title + type icon (Guardian, Treasury, etc.).
 
@@ -12,7 +12,7 @@
 
   - Security chip (Verified • Block 19,343,231).
 
-* Object preview rail: Click any card → opens sub-view:
+* **Object preview rail**: Click any card → opens sub-view:
 
   - Treasury → live balance tiles + recent transfers.
 
@@ -20,7 +20,7 @@
 
   - Factory → list of RuleModules with schema tags (Crowdfund, Royalty Split).
 
-* Grid/Drive-style browsing: RuleModules display like Google Drive tiles, each tile showing describe() + params summary.
+* **Grid/Drive-style browsing**: RuleModules display like Google Drive tiles, each tile showing describe() + params summary.
 
 ## Deployment
 
