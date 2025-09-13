@@ -1,7 +1,7 @@
 # Fish School Wallet
 
 ## Overview
-🎨 Proposal for your trustless GUI
+🎨 Building a Trustless Wallet for Fish School
 * Wallet container rail: A full-screen “Wallet” frame with status bar (network, block, codehash OK).
 
 * Wallet object rail: Cards (Admission, Treasury, Governance, Rules). Each with:
