@@ -1,4 +1,4 @@
-# Fish School Wallet
+# 🐟Fish School Wallet
 
 ## Overview
 🎨 Building a Trustless Wallet for Fish School
