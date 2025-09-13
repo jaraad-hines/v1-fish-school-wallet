@@ -20,7 +20,7 @@
 
   - Factory → list of RuleModules with schema tags (Crowdfund, Royalty Split).
 
-* **Grid/Drive-style browsing**: RuleModules display like Google Drive tiles, each tile showing describe() + params summary.
+* **Drive-style browsing**: RuleModules display like Google Drive tiles, each tile showing describe() + params summary.
 
 ## Deployment
 
