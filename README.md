@@ -16,15 +16,6 @@ Your project is live at:
 
 **[https://vercel.com/jhines19s-projects/v0-fish-school-wallet](https://vercel.com/jhines19s-projects/v0-fish-school-wallet)**
 
-## Build your app
-
-Continue building your app on:
 
 **[https://v0.app/chat/projects/GCZ7ArgsnYh](https://v0.app/chat/projects/GCZ7ArgsnYh)**
 
-## How It Works
-
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
