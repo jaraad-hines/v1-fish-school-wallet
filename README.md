@@ -38,4 +38,3 @@ Project is live at:
 ### Version 2 screenshots
 <img width="1854" height="665" alt="v2_aesthetic" src="https://github.com/user-attachments/assets/d4028eac-2ef6-4e8b-8fbd-9b5ed7d7ede4" />
 <img width="1920" height="683" alt="v2_aesthetic_02" src="https://github.com/user-attachments/assets/91c580c1-d8a7-4e50-ad17-1fb991c27f49" />
-
