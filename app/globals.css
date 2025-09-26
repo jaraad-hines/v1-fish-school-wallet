@@ -124,3 +124,14 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Adding glassmorphic header styles */
+@layer utilities {
+  .glassmorphic {
+    @apply bg-white/10 backdrop-blur-md border border-white/20;
+  }
+
+  .glassmorphic-dark {
+    @apply bg-black/10 backdrop-blur-md border border-white/10;
+  }
+}
