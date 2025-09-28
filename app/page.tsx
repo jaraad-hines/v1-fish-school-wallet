@@ -5,13 +5,18 @@ import { GlasmorphicHeader } from "@/components/layout/glassmorphic-header"
 import { HomePage } from "@/components/pages/home-page"
 import { FounderHub } from "@/components/pages/founder-hub"
 import { InvestorHub } from "@/components/pages/investor-hub"
+import { InvestmentHubs } from "@/components/pages/investment-hubs"
+import { ModelHub } from "@/components/pages/model-hub"
 import { WalletDashboard } from "@/components/wallet-dashboard"
 
 export default function Home() {
-  const [currentPage, setCurrentPage] = useState<"home" | "founder" | "investor" | "wallet">("home")
+  const [currentPage, setCurrentPage] = useState<
+    "home" | "founder" | "investor" | "investment-hubs" | "wallet" | "model-hub"
+  >("home")
+
   const [userProfile] = useState({
     name: "Koyuki",
-    role: "founder" as const,
+    role: "investor" as const,
     avatar: "/abstract-profile.png",
     badges: ["GP", "Leading Investor", "Founding Group"],
   })
@@ -28,8 +33,12 @@ export default function Home() {
         return <FounderHub />
       case "investor":
         return <InvestorHub />
+      case "investment-hubs":
+        return <InvestmentHubs />
       case "wallet":
         return <WalletDashboard />
+      case "model-hub":
+        return <ModelHub onNavigate={handleNavigate} />
       default:
         return <HomePage onNavigate={handleNavigate} userProfile={userProfile} />
     }

@@ -134,4 +134,56 @@
   .glassmorphic-dark {
     @apply bg-black/10 backdrop-blur-md border border-white/10;
   }
+
+  /* Adding enhanced glassmorphic styles and folder stacking effects */
+  .glassmorphic-enhanced {
+    @apply bg-white/20 backdrop-blur-xl border border-white/30 shadow-2xl;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1));
+  }
+
+  /* Adding scrollbar-hide utility for carousel effects */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  .folder-stack {
+    position: relative;
+    transform-style: preserve-3d;
+  }
+
+  .folder-stack::before,
+  .folder-stack::after {
+    content: "";
+    position: absolute;
+    top: -4px;
+    left: 4px;
+    right: -4px;
+    bottom: 4px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05));
+    border-radius: inherit;
+    z-index: -1;
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .folder-stack::after {
+    top: -8px;
+    left: 8px;
+    right: -8px;
+    bottom: 8px;
+    opacity: 0.5;
+  }
+
+  .model-hub-gradient {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  }
+
+  .crypto-imprint {
+    @apply bg-gradient-to-r from-purple-500/20 to-blue-500/20 backdrop-blur-sm border border-purple-300/30;
+  }
 }
